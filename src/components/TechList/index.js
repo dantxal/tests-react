@@ -1,15 +1,20 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
+import {useSelector, useDispatch} from 'react-redux'
 
 
 // import { Container } from './styles';
 
 export default function TechList() {
-  const [techs, setTechs] = useState([]);
   const [newTech, setNewTech] = useState('');
 
-  function handleAddTech(e) {
-    e.preventDefault();
-    setTechs([...techs, newTech])
+  const dispatch = useDispatch();
+  const techs = useSelector(state => state.techs);
+  
+
+  function handleAddTech() {
+    dispatch({ type: 'ADD_TECH', payload: { tech: newTech } });
+    
+    setNewTech('');
   }
 
   return (
