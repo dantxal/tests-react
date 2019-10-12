@@ -6,5 +6,12 @@ describe('Techs reducer', () => {
     const state = reducer(INITIAL_STATE, Techs.addTech('Node.js'));
 
     expect(state).toStrictEqual(['Node.js']);
-  })
+  });
+
+  it(`should set state to be INITIAL_STATE when reducer has no PrevState
+  and should call default case if no action.type is defined`, () => {
+    const state = reducer(undefined, {});
+
+    expect(state).toStrictEqual(INITIAL_STATE);
+  });
 })

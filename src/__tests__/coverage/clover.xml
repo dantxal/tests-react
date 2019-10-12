@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1570842646262" clover="3.2.0">
-  <project timestamp="1570842646262" name="All files">
-    <metrics statements="22" coveredstatements="21" conditionals="3" coveredconditionals="1" methods="12" coveredmethods="11" elements="37" coveredelements="33" complexity="0" loc="22" ncloc="22" packages="4" files="6" classes="6"/>
+<coverage generated="1570843126922" clover="3.2.0">
+  <project timestamp="1570843126922" name="All files">
+    <metrics statements="22" coveredstatements="21" conditionals="3" coveredconditionals="3" methods="12" coveredmethods="11" elements="37" coveredelements="35" complexity="0" loc="22" ncloc="22" packages="4" files="6" classes="6"/>
     <package name="src">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="App.js" path="/home/dantxal/projects/code/tests-react/src/App.js">
@@ -31,7 +31,7 @@
       </file>
     </package>
     <package name="src.store.modules.techs">
-      <metrics statements="12" coveredstatements="12" conditionals="3" coveredconditionals="1" methods="6" coveredmethods="6"/>
+      <metrics statements="12" coveredstatements="12" conditionals="3" coveredconditionals="3" methods="6" coveredmethods="6"/>
       <file name="actions.js" path="/home/dantxal/projects/code/tests-react/src/store/modules/techs/actions.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="2" count="3" type="stmt"/>
@@ -39,10 +39,10 @@
         <line num="14" count="2" type="stmt"/>
       </file>
       <file name="reducer.js" path="/home/dantxal/projects/code/tests-react/src/store/modules/techs/reducer.js">
-        <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="9" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
       </file>
